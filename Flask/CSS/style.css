@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: "Lilita One", cursive;
+
+  font-size: 15px;
+  line-height: 1.6;
+  color: black;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Контейнер*/
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*header*/
+.header{
+    width: 90%;
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+/* Intro*/
+
+.fon {
+    width: 100%;
+    height: 100vh;
+
+    background: url("../image/Aerotex.jpg") center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
